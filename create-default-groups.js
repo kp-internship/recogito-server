@@ -31,6 +31,8 @@ const main = async (options) => {
   }
 
   // console.info(JSON.stringify(config, null, 2));
+  console.log('process.env.SUPABASE_HOST', process.env.SUPABASE_HOST);
+  console.log('process.env.SUPABASE_SERVICE_KEY', process.env.SUPABASE_SERVICE_KEY);
 
   // Create the policies
   let policiesInserts = [];
